@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes slow-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-slow {
+  animation: slow-rotate 60s linear infinite;
+}
