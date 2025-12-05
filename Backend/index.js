@@ -9,7 +9,7 @@ const cors = require('cors');
 
 // Allow all origins for now – works for Railway
 app.use(cors({
-    origin: "*",
+    origin: "https://getstart12.netlify.app/",
     credentials: true
 }));
 
